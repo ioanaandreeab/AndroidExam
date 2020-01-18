@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/adauga_curs"
+        android:id="@+id/menuAdaugaCurs"
+        app:showAsAction="never">
+    </item>
+
+    <item android:title="@string/sincronizare"
+        android:id="@+id/menuSincronizareRetea"
+        app:showAsAction="never">
+    </item>
+
+    <item android:title="@string/grafic"
+        android:id="@+id/menuGrafic"
+        app:showAsAction="never">
+    </item>
+</menu>

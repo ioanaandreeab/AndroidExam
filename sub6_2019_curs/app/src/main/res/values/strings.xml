@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="adauga_curs">Adauga curs</string>
+    <string name="sincronizare">Sincronizare retea</string>
+    <string name="grafic">Grafic</string>
+    <string name="id">Id curs:</string>
+    <string name="denumire">Denumire:</string>
+    <string name="nr_participanti">Nr. participanti:</string>
+    <string name="sala">Sala:</string>
+    <string name="prof_titular">Profesor titluar:</string>
+    <string name="salveaza">Salveaza</string>
+    <string name="renunta">Renunta</string>
+    <string name="id_invalid">Id invalid</string>
+    <string name="denumire_invalida">Denumire invalida</string>
+    <string name="part_invalid">Nr. participanti invalid</string>
+    <string name="sala_invalida">Sala invalida</string>
+    <string name="prof_invalid">Profestor titular invalid</string>
+    <string name="sigur">Sunteti sigur ca doriti sa stergeti elementul selectat?</string>
+    <string name="da">Da</string>
+    <string name="nu">Nu</string>
+    <string name="renuntat">Ati renuntat la stergere</string>
+</resources>
