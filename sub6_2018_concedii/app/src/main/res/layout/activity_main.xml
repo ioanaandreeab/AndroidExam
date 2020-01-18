@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adaugareOfertaBtn"
+        android:text="@string/adaugaOfertaTxt"
+        android:onClick="adaugaOfertaLaunch">
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listaOferteBtn"
+        android:text="@string/listaOferteTxt"
+        android:onClick="deschideLista">
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/preluareDateBtn"
+        android:text="@string/preluare_date">
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/centralizatorBtn"
+        android:text="@string/centralizator"
+        android:onClick="deschideCentralizator">
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/despreBtn"
+        android:text="@string/despre"
+        android:onClick="infoUtilizator">
+    </Button>
+
+</LinearLayout>

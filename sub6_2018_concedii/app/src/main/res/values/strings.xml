@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Concedii</string>
+    <string name="adaugaOfertaTxt">Adaugare oferta</string>
+    <string name="listaOferteTxt">Lista oferte</string>
+    <string name="preluare_date">Preluare date</string>
+    <string name="centralizator">Centralizator</string>
+    <string name="despre">Despre</string>
+    <string name="user">Ioana</string>
+    <string name="adresa">Adresa:</string>
+    <string name="nr_camere">Nr. camere:</string>
+    <string name="tip_locuinta">Tip locuinta:</string>
+    <string name="salveazaBtn">Salveaza</string>
+    <string name="renunta">Renunta</string>
+    <string name="suprafata">Suprafata:</string>
+    <string name="adresa_invalida">Adresa invalida</string>
+    <string name="suprafata_invalida">Suprafata invalida</string>
+    <string name="nrcamere_invalid">Nr. camere invalid</string>
+    <string name="perioada_invalida">Perioada invalida</string>
+    <string name="perioada">Perioada:</string>
+
+    <string-array name="tipuri">
+        <item>casa</item>
+        <item>apartament</item>
+    </string-array>
+</resources>
