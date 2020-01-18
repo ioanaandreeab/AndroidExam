@@ -21,7 +21,7 @@ public class AdaugaJucator extends AppCompatActivity {
     EditText ETNume;
     EditText ETDataNasterii;
     Spinner spinnerPozitie;
-    SpinnerAdapter spinnerAdapter;
+    ArrayAdapter<String> spinnerAdapter;
     Intent intent;
     Jucator jucator;
     private final String FORMAT_DATA = "dd/MM/yyyy";
@@ -32,8 +32,18 @@ public class AdaugaJucator extends AppCompatActivity {
         initComponente();
         intent = getIntent();
         if(intent.hasExtra("deEditat")){
-
+            jucator = intent.getParcelableExtra("deEditat");
+            setContentComponente();
         }
+    }
+
+    private void setContentComponente(){
+        ETNumar.setText(String.valueOf(jucator.getNumar()));
+        SimpleDateFormat sdf = new SimpleDateFormat(FORMAT_DATA,Locale.ITALY);
+        ETDataNasterii.setText(sdf.format(jucator.getDataNasterii()));
+        ETNume.setText(jucator.getNume());
+        int tipPosition = spinnerAdapter.getPosition(jucator.getPozitie());
+        spinnerPozitie.setSelection(tipPosition);
     }
 
     private void initComponente(){
@@ -41,7 +51,7 @@ public class AdaugaJucator extends AppCompatActivity {
         ETNume = findViewById(R.id.ETNume);
         ETDataNasterii = findViewById(R.id.ETDataNasterii);
         spinnerPozitie = findViewById(R.id.spinnerPozitie);
-        spinnerAdapter = new ArrayAdapter<String>(getApplicationContext(),android.R.layout.simple_spinner_dropdown_item,getResources().getStringArray(R.array.pozitii));
+        spinnerAdapter = new ArrayAdapter<>(getApplicationContext(),android.R.layout.simple_spinner_dropdown_item,getResources().getStringArray(R.array.pozitii));
         spinnerPozitie.setAdapter(spinnerAdapter);
     }
 

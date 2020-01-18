@@ -3,15 +3,36 @@ package com.example.jucator;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import java.io.Serializable;
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.Ignore;
+import androidx.room.PrimaryKey;
+
 import java.util.Date;
 
+@Entity(tableName = "jucatori")
 public class Jucator implements Parcelable {
+    @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name="id")
+    private int id;
+    @ColumnInfo(name="numar")
     private int numar;
+    @ColumnInfo(name="nume")
     private String nume;
+    @ColumnInfo(name="dataNasterii")
     private Date dataNasterii;
+    @ColumnInfo(name = "pozitie")
     private String pozitie;
 
+    public Jucator(int id, int numar, String nume, Date dataNasterii, String pozitie) {
+        this.id = id;
+        this.numar = numar;
+        this.nume = nume;
+        this.dataNasterii = dataNasterii;
+        this.pozitie = pozitie;
+    }
+
+    @Ignore
     public Jucator(int numar, String nume, Date dataNasterii, String pozitie) {
         this.numar = numar;
         this.nume = nume;
@@ -92,5 +113,13 @@ public class Jucator implements Parcelable {
                 ", dataNasterii=" + dataNasterii +
                 ", pozitie='" + pozitie + '\'' +
                 '}';
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
