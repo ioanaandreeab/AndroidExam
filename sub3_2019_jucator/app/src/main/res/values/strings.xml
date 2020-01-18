@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Jucator</string>
+    <string name="adauga_jucator">Adauga jucator</string>
+    <string name="sincronizare_retea">Sincronizare retea</string>
+    <string name="grafic">Grafic</string>
+    <string name="numar">Numar:</string>
+    <string name="nume">Nume:</string>
+    <string name="data_nasterii">Data nasterii:</string>
+    <string name="pozitie">Pozitie:</string>
+    <string name="salveaza">Salveaza</string>
+    <string name="renunta">Renunta</string>
+    <string name="numar_invalid">Numar invalid</string>
+    <string name="nume_invalid">Nume invalid</string>
+    <string-array name="pozitii">
+        <item>portar</item>
+        <item>fundas</item>
+        <item>mijlocas</item>
+        <item>atacant</item>
+    </string-array>
+</resources>
