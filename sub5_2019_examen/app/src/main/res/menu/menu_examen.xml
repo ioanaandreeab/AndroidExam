@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/adauga_examen" android:id="@+id/menuAdaugaExamen"></item>
+    <item android:title="@string/sincronizare_retea" android:id="@+id/menuSincronizareRetea"></item>
+    <item android:title="@string/grafic" android:id="@+id/menuGrafic"></item>
+</menu>

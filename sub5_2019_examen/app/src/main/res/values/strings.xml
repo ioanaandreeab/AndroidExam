@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Examen</string>
+    <string name="adauga_examen">Adauga Examen</string>
+    <string name="sincronizare_retea">Sincronizare retea</string>
+    <string name="grafic">Grafic</string>
+    <string name="id">Id:</string>
+    <string name="denumire_materie">Denumire materie:</string>
+    <string name="nr_studenti">Nr. studenti:</string>
+    <string name="sala">Sala:</string>
+    <string name="supraveghetor">Supraveghetor:</string>
+    <string name="id_invalid">Id invalid</string>
+    <string name="prof_invalid">Profesor supraveghetor invalid</string>
+    <string name="denumire_invalida">Denumire materie invalida</string>
+    <string name="sala_invalida">Sala invalida</string>
+    <string name="nr_invalid">Nr studenti invalid</string>
+    <string name="salveaza">Salveaza</string>
+    <string name="renunta">Renunta</string>
+    <string name="confirmare">Doriti sa stergeti elementul selectat?</string>
+    <string name="da">Da</string>
+    <string name="nu">Nu</string>
+    <string name="renuntat">Ati renuntat la stergere</string>
+</resources>
