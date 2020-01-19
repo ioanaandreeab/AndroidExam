@@ -19,4 +19,5 @@
     <string name="da">Da</string>
     <string name="nu">Nu</string>
     <string name="renuntat">Ati renuntat la stergere</string>
+    <string name="adauga_in_bd">Adauga in BD</string>
 </resources>

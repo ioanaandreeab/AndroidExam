@@ -3,11 +3,22 @@ package com.example.examen;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
+@Entity(tableName = "examene")
 public class Examen implements Parcelable {
+    @PrimaryKey
+    @ColumnInfo(name="id")
     private int id;
+    @ColumnInfo(name="denumireMaterie")
     private String denumireMaterie;
+    @ColumnInfo(name="numarStudenti")
     private int numarStudenti;
+    @ColumnInfo(name = "sala")
     private String sala;
+    @ColumnInfo(name = "supraveghetor")
     private String supraveghetor;
 
     public Examen(int id, String denumireMaterie, int numarStudenti, String sala, String supraveghetor) {

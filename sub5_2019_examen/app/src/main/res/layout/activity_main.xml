@@ -13,4 +13,12 @@
         android:id="@+id/LVExamene">
     </ListView>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adauga_in_bd"
+        android:id="@+id/BTNAddInDB"
+        android:onClick="adaugaExameneInBD">
+    </Button>
+
 </LinearLayout>
