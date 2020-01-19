@@ -49,7 +49,7 @@ public class AdaugaCurs extends AppCompatActivity {
             int idCurs = Integer.parseInt(ETId.getText().toString());
             String denumire = ETDenumire.getText().toString();
             int nrParticipanti = Integer.parseInt(ETNrParticipanti.getText().toString());
-            long sala = Long.parseLong(ETSala.getText().toString());
+            String sala = ETSala.getText().toString();
             String profTitular = ETProfTitular.getText().toString();
             curs = new Curs(idCurs,denumire,nrParticipanti,sala,profTitular);
             intent.putExtra("cursAdaugat",curs);

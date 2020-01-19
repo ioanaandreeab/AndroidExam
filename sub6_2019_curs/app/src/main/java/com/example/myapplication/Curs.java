@@ -3,14 +3,26 @@ package com.example.myapplication;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.Index;
+import androidx.room.PrimaryKey;
+
+@Entity(tableName = "cursuri")
 public class Curs implements Parcelable {
+    @PrimaryKey
+    @ColumnInfo(name="idCurs")
     private int idCurs;
+    @ColumnInfo(name="denumire")
     private String denumire;
+    @ColumnInfo(name="numarParticipanti")
     private int numarParticipanti;
-    private long sala;
+    @ColumnInfo(name="sala")
+    private String sala;
+    @ColumnInfo(name="profesorTitular")
     private String profesorTitular;
 
-    public Curs(int idCurs, String denumire, int numarParticipanti, long sala, String profesorTitular) {
+    public Curs(int idCurs, String denumire, int numarParticipanti, String sala, String profesorTitular) {
         this.idCurs = idCurs;
         this.denumire = denumire;
         this.numarParticipanti = numarParticipanti;
@@ -22,7 +34,7 @@ public class Curs implements Parcelable {
         idCurs = in.readInt();
         denumire = in.readString();
         numarParticipanti = in.readInt();
-        sala = in.readLong();
+        sala = in.readString();
         profesorTitular = in.readString();
     }
 
@@ -31,7 +43,7 @@ public class Curs implements Parcelable {
         dest.writeInt(idCurs);
         dest.writeString(denumire);
         dest.writeInt(numarParticipanti);
-        dest.writeLong(sala);
+        dest.writeString(sala);
         dest.writeString(profesorTitular);
     }
 
@@ -76,11 +88,11 @@ public class Curs implements Parcelable {
         this.numarParticipanti = numarParticipanti;
     }
 
-    public long getSala() {
+    public String getSala() {
         return sala;
     }
 
-    public void setSala(long sala) {
+    public void setSala(String sala) {
         this.sala = sala;
     }
 
