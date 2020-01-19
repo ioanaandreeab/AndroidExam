@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Rezervare</string>
+    <string name="adauga_rezervare">Adauga rezervare</string>
+    <string name="preluare_rezervari_online">Preluare rezervari online</string>
+    <string name="salvare_baza_de_date">Salvare baza de date</string>
+    <string name="grafic">Grafic</string>
+    <string name="despre">Despre</string>
+    <string name="info_title">Informatii aplicatie</string>
+    <string name="utilizator">Ioana</string>
+    <string name="id_curs">Id curs:</string>
+    <string name="nume_client">Nume client:</string>
+    <string name="tip_camera">Tip camera:</string>
+    <string name="durata_sejur">Durata sejur:</string>
+    <string name="suma_plata">Suma plata:</string>
+    <string name="data_cazare">Data cazare:</string>
+    <string name="salveaza">Salveaza</string>
+    <string name="renunta">Renunta</string>
+
+    <string-array name="tipCamera">
+        <item>S</item>
+        <item>D</item>
+    </string-array>
+</resources>
