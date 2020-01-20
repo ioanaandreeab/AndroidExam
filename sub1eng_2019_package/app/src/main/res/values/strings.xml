@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Package</string>
+    <string name="send_package">Send package</string>
+    <string name="package_list">Package list</string>
+    <string name="backup_packages">Backup packages</string>
+    <string name="update_packages">Update packages</string>
+    <string name="package_sending_rate">Package sending rate</string>
+    <string name="package_id">Package id:</string>
+    <string name="package_type">Package type</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="timestamp">Timestamp:</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="invalid_time">Invalid time</string>
+    <string name="invalid_longitude">Invalid longitude</string>
+    <string name="invalid_latitude">Invalid latitude</string>
+    <string name="invalid_id">Invalid package id</string>
+    <string name="type">Type</string>
+    <string name="latitudeText">Latitude</string>
+    <string name="longitudeText">Longitude</string>
+    <string name="timestampText">Timestamp</string>
+    <string-array name="packageType">
+        <item>POSITION</item>
+        <item>STALE</item>
+    </string-array>
+</resources>
