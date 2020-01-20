@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Autovehicul</string>
+    <string name="adauga_autovehicul">Adauga autovehicul</string>
+    <string name="lista_autovehicule">Lista autovehicule</string>
+    <string name="preluare_masini_din_json">Preluare masini din JSON</string>
+    <string name="raport">Raport</string>
+    <string name="despre">Despre</string>
+    <string name="autor">Ioana Berdei</string>
+    <string name="numar_auto">Numar auto:</string>
+    <string name="data_inregistrarii">Data inregistrarii:</string>
+    <string name="id_loc_parcare">Id Loc Parcare:</string>
+    <string name="a_platit">A platit?</string>
+    <string name="salveaza">Salveaza</string>
+    <string name="renunta">Renunta</string>
+    <string name="id_invalid">Id invalid</string>
+    <string name="nr_invalid">Nr auto invalid</string>
+    <string name="data_invalida">Data inregistrare invalida</string>
+    <string name="adauga_in_bd">Adauga in BD</string>
+</resources>
