@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Articole</string>
+    <string name="adauga_articol">Adauga articol</string>
+    <string name="lista_articole">Lista articole</string>
+    <string name="preluare_articole_din_json">Preluare articole din JSON</string>
+    <string name="raport">Raport</string>
+    <string name="despre">Despre</string>
+    <string name="utilizator">Ioana</string>
+    <string name="titlu">Titlu:</string>
+    <string name="prima_pagina">Prima pagina:</string>
+    <string name="ultima_pagina">Ultima pagina:</string>
+    <string name="nr_autori">Numar autori:</string>
+    <string name="salveaza">Salveaza</string>
+    <string name="renunta">Renunta</string>
+    <string name="titlu_invalid">Titlu invalid</string>
+    <string name="pp_invalida">Prima pagina invalida</string>
+    <string name="up_invalida">Ultima pagina invalida</string>
+    <string name="nr_invalid">Nr. autori invalid</string>
+    <string name="salveaza_date_in_bd">Salveaza date in BD</string>
+    <string name="add_json">Articole adaugate din JSON</string>
+</resources>
