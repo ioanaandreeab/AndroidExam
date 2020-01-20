@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Televizor</string>
+    <string name="inregistrare_televizor">Inregistrare televizor</string>
+    <string name="lista_televizoare">Lista televizoare</string>
+    <string name="preluare_televizoare_din_json">Preluare televizoare din JSON</string>
+    <string name="raport">Raport</string>
+    <string name="despre">Despre</string>
+    <string name="autor">Ioana Berdei</string>
+    <string name="nr_inventar">Nr. inventar:</string>
+    <string name="producator">Producator:</string>
+    <string name="diagonala">Diagonala:</string>
+    <string name="proprietar">Proprietar:</string>
+    <string name="data_intrarii">Data intrarii:</string>
+    <string name="salveaza">Salveaza</string>
+    <string name="renunta">Renunta</string>
+    <string name="proprietar_invalid">Proprietar invalid</string>
+    <string name="producator_invalid">Producator invalid</string>
+    <string name="nr_invalid">Nr inventar invalid</string>
+    <string name="data_invalida">Data intrarii invalida</string>
+    <string name="adauga_televizoare_in_bd">Adauga televizoare in BD</string>
+</resources>
